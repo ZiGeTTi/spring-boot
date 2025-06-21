@@ -1,0 +1,17 @@
+### GET request to example server
+GET http://localhost:8080/organizers
+
+###
+
+GET http://localhost:8080/events/999
+### GET request to example server
+GET http://localhost:8080/events?organizerId=101
+
+### Post request to example server
+POST http://localhost:8080/registrations
+Content-Type: application/json
+
+{
+  "productId": 802,
+  "attendeeName": "Ezgim Çelik"
+}
